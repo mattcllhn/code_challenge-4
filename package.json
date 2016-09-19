@@ -4,8 +4,23 @@
   "description": "Code Challenge 5",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/app.js"
   },
   "author": "antoinette@primeacademy.io",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mattcllhn/code_challenge-4.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/mattcllhn/code_challenge-4/issues"
+  },
+  "homepage": "https://github.com/mattcllhn/code_challenge-4",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "pg": "^6.1.0"
+  }
 }
